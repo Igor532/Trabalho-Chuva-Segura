@@ -1,0 +1,76 @@
+import styled from 'styled-components/native';
+
+export const Background = styled.View`
+  flex:1;
+  background-color: #FFF;
+`;
+
+export const Container = styled.KeyboardAvoidingView`
+  flex:1;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 0;
+`;
+
+export const Tela_Login = styled.Image`
+width: 237px;
+height: 266px;
+flex-shrink: 0;
+margin-bottom: 40px;
+
+`;
+
+export const SubmitButton = styled.TouchableOpacity`
+  width: 90%;
+  height: 45px;
+  border-radius: 8px;
+  background-color: #3b3dbf;
+  margin-top: 25px;
+  align-items: center;
+  justify-content: center;
+`;
+
+export const SubmitText = styled.Text`
+  font-size: 20px;
+  color: #FFF;
+`;
+
+export const Link = styled.TouchableOpacity`
+  margin-top: 10px;
+  margin-bottom: 10px;
+`;
+
+export const LinkText = styled.Text`
+  color: #171717;
+`;
+
+export const ContainerInput = styled.View`
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+`;
+
+export const InputDados = styled.TextInput`
+  background-color: transparent;
+  width: 100%;
+  border-bottom-width: 1px;
+  border-bottom-color: rgba(0, 0, 0, 0.40);
+  padding: 4px 0px;
+
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+
+`;
+
+export const ContainerCenter = styled.View`
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  gap: 25px;
+`;
+
+export const Label = styled.Text`
+  font-weight: bold;
+`;
